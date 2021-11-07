@@ -1,3 +1,5 @@
+
+   
 *{
     margin: 0;
     padding: 0;
@@ -355,3 +357,198 @@ footer {
     margin: 50px 0px 0px;
 }
 
+
+
+
+@media screen and (max-width:768px) {
+    .nav {
+        position: fixed;
+        background-color: #000;
+        width: 100%;
+        height: 100vh;
+        width: 100%;
+        top: 0;
+        left: -100%;
+        transition: all 0.5s ease;
+    }
+
+    .nav-active {
+        left: 0;
+    }
+
+    .toggle-btn i.nav-active:before {
+        content: "\f00d";
+    }
+
+    .nav ul li {
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .nav ul {
+        margin-top: 100px;
+    }
+
+    .toggle-btn {
+        display: block;
+        z-index: 1;
+    }
+
+    .home_header_info h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .home_header_info p {
+        font-size: 14px;
+        line-height: 30px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    section#welcome_Sec h2 {
+        font-size: 21px;
+    }
+
+    section#welcome_Sec p {
+        font-size: 14px;
+        color: #777;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    .slides {
+        flex-direction: column;
+    }
+
+    .slide_1 {
+        width: 90%;
+        min-width: 90%;
+        height: 240px;
+        margin: 20px 15px;
+    }
+
+    section#welcome_Sec {
+        text-align: center;
+        padding: 50px 0px 20px;
+    }
+
+    header {
+        padding: 0 40px;
+    }
+
+    section#welcome_Sec h2 {
+        font-size: 18px;
+    }
+
+    section#slides_parent {
+        padding-bottom: 50px;
+    }
+
+    .slide_info {
+        bottom: 21px;
+        transform: rotate(0deg);
+        left: 20px;
+        font-size: 19px;
+    }
+
+    .explore-content-par {
+        flex-direction: column;
+    }
+
+    .explore-info h3 {
+        font-size: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    #clockdiv {
+        font-size: 18px;
+    }
+
+    .smalltext {
+        padding-top: 5px;
+        font-size: 12px;
+    }
+
+    #clockdiv > div {
+        margin-right: 14px;
+    }
+
+    .counter-form {
+        flex: 1;
+        margin-top: 40px;
+    }
+
+    #explore-fiji {
+        padding: 50px 0;
+    }
+
+    section#gallery {
+        margin: 30px 0px;
+    }
+
+    .filter-button {
+        font-size: 15px;
+        margin-bottom: 30px;
+        margin: 20px 0px;
+        cursor: pointer;
+        transition: all 0.5s ease;
+    }
+
+    #fiji-holyday {
+        padding: 50px 0px;
+    }
+
+    #blog {
+        padding: 50px 0;
+    }
+
+    section#fiji-holyday h3 {
+        font-size: 28px;
+    }
+
+    .owl-carousel.owl-theme.owl-loaded.owl-drag {
+        margin-top: 20px;
+    }
+
+    #blog h3 {
+        font-size: 30px;
+    }
+
+    div#blog-par {
+        flex-direction: column;
+    }
+
+    div#blog-par {
+        margin-top: 0px !important;
+    }
+
+    .blog-info h4 {
+        font-size: 17px;
+    }
+
+    div#blog-par {
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .blog-content {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .footer-par {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .explore-info {
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width:950px) {}
