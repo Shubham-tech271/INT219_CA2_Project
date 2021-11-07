@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&family=Raleway:ital,wght@0,200;0,300;0,600;1,400;1,800;1,900&display=swap" rel="stylesheet">
+   
+    <link rel='stylesheet' type='text/css' href="CSS_files\style.css"> 
+    <title> Tour$travel </title>
+</head>
+<body>
+ <nav>
+     <div class="container">
+         <div class="menu-par">
+             <div class="logo-par">
+                 <a href="index.html"><h2>
+                     Tour$travel
+                 </h2></a>
+             </div>
+             <div class="nav">
+                 <ul>
+                     <li><a class="menu-hover" href="index.html"> Home </a></li>
+                     <li><a class="menu-hover" href="#book"> Book now</a></li>
+                     <li><a class="menu-hover" href="#gallery">  Gallery</a></li>
+                     <li><a class="menu-hover" href="travellogin.html">  Login/signup</a></li>
+                     <li><a class="menu-hover" href="#contact">  contact us</a></li>
+                 </ul>
+             </div>
+
+         </div>
+     </div>
+ </nav>
+ <header>
+    <div class="conatiner">
+        <div class="header-info-par">
+            <h1 class="typewrite" data-period="2000" data-type='[ "Happiness is closer than you think.", "Adventure awaits, go find it.", "Don’t be a tourist, be a traveler." ]'></h1>
+            <p>Explore the traveler in yourself. The beautiful world is waiting for your. You have a dream we have choices for you. Fullfill your dreams. If you get a chance to live your life to the fullest then.......
+                Don’t waste it live it.
+            </p>
+            <a href="travellogin.html">Login</a>
+        </div>
+    </div>
+        <div class="video">
+            <video id="video" autoplay loop muted>
+                <source src="Project_Images\travel-video.mp4" type="video/mp4"/>
+            </video>
+        </div>
+         </div>
+     </div>
+ </header>
+
+ <!--gallery-->
+ <section id="gallery">
+    <div class="container">
+        <div class="row">
+            <div align="center">
+                <button class="btn filter-button active" data-filter="all">All</button>
+                <button class="btn filter-button" data-filter="hdpe">Diving</button>
+                <button class="btn filter-button" data-filter="sprinkle">Nature</button>
+                <button class="btn filter-button" data-filter="spray">Health</button>
+            </div>
+
+            <div class="filter-gal-par">
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                    <img src="Project_Images/fiji-surprise/diving1.jpg" class="img-responsive">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                    <img src="Project_Images/fiji-surprise/nature1.jpg" class="img-responsive">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                    <img src="Project_Images/fiji-surprise/diving2.jpg" class="img-responsive">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+                    <img src="Project_Images/fiji-surprise/health1.jpg" class="img-responsive">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                    <img src="Project_Images/fiji-surprise/nature2.jpg" class="img-responsive">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+                    <img src="Project_Images/fiji-surprise/health2.jpg" class="img-responsive">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                    <img src="Project_Images/fiji-surprise/nature3.jpg" class="img-responsive">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                    <img src="Project_Images/fiji-surprise/diving3.jpg" class="img-responsive">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+                    <img src="Project_Images/fiji-surprise/health2.jpg" class="img-responsive">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                    <img src="Project_Images/fiji-surprise/diving1.jpg" class="img-responsive">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                    <img src="Project_Images/fiji-surprise/nature2.jpg" class="img-responsive">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+                    <img src="Project_Images/fiji-surprise/health1.jpg" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+ <!--gallery end-->
+
+ <section id="book">
+    <div class="container">
+        <div class="book-content-par">
+            <div class="book-counter">
+                <h3>Book Now </h3>
+                <div id="clockdiv">
+                    <div>
+                        <span class="days"></span>
+                        <div class="smalltext">Days</div>
+                    </div>
+                    <div>
+                        <span class="hours"></span>
+                        <div class="smalltext">Hours</div>
+                    </div>
+                    <div>
+                        <span class="minutes"></span>
+                        <div class="smalltext">Minutes</div>
+                    </div>
+                    <div>
+                        <span class="seconds"></span>
+                        <div class="smalltext">Seconds</div>
+                    </div>
+                </div>
+            </div>
+            <div class="book-form" >
+                <form >
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                        <option value="india">India</option>
+                    </select>
+                    <textarea id="subject" name="subject" placeholder="Help us know you better.." style="height:200px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-par">
+            <div class="footer-1">
+                <h2>Best Travel Agency</h2>
+            </div>
+            <div class="footer-2 fot-info">
+                <h3>Wesite Overview</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#book">Book now</a></li>
+                    <li><a href="travellogin.html">Login/Signup</a></li>
+                </ul>
+            </div>
+            <div class="footer-3 fot-info">
+                <h3>Find your pick</h3>
+                <ul>
+                    <li><a href="#gallery"> Nature </a></li>
+                    <li><a href="#gallery"> Health </a></li>
+                    <li><a href="#gallery"> Site seeing </a></li>
+                </ul>
+            </div>
+            <div id="contact" class="footer-4 fot-info">
+                <h3>Need Help?</h3>
+                <ul>
+                    <li><a href="#">1120-5500342</a></li>
+                    <li><a href="#">1120-4450330</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <p class="copyright">Copyright © 2021 Tour$travel</p>
+</footer>
+
+
+<script src="Jss_files/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+   <script src="Jss_files\extrenal.js"></script>
+    
+</body>
+</html>
